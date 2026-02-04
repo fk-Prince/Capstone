@@ -1,0 +1,24 @@
+
+# FROTNEND URL
+URL=http://localhost:3000
+
+# BACKEND PORT
+PORT=8000
+
+# DATABASE URL
+DATABASE_URL=postgresql://neondb_owner:npg_4Izq0bTvyZNc@ep-soft-resonance-a1bz2ihb-pooler.ap-southeast-1.aws.neon.tech/Sample?sslmode=require&channel_binding=require
+
+# STATUS ( DEVELOPMENT OR PRODUCTION )
+NODE_ENV=development
+
+# SMTP
+NODEMAILER_HOST = smtp.gmail.com
+NODEMAILER_EMAIL = princesestoso2@gmail.com
+NODEMAILER_PASSWORD = lqdgxynrerurdpoq
+
+
+# JWT TOKEN
+JWT_SECRET_KEY = LhpptsP2avpQOgt+yw/ihvVXsqrSClg2mf98kvuHsjI=
+JWT_SECRET_EXPIRES_IN = 60s
+JWT_REFRESH_KEY = 35f4beb37a7ba6777c4711fedc0dd23c8db78b57df0246cc876de09fffdf8971f204517c4c24f325adde64cc8f4ee7815c9027a8fcec04768a4b4f0263da4cde
+JWT_REFRESH_EXPIRES_IN = 7d
